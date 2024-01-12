@@ -70,7 +70,7 @@ public class ValidacoesListaTests
         // Arrange
         var lista = new List<int> { 5, -1, -8, 9 };
         int num = 9;
-        
+
         // Act
         var maiorNum = _validacoes.RetornarMaiorNumeroLista(lista);
 
